@@ -67,6 +67,12 @@
                 android:onClick="muestraCollapsingToolbarLayout"
                 android:text="CollapsingToolbarLayout"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="muestraRadioGroup"
+                android:text="Radio Group"/>
+
             <TextView
                 android:id="@+id/txvMenuItem"
                 android:layout_width="wrap_content"

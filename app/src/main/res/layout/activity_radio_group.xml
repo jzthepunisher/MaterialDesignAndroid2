@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soloparaapasionados.materialdesign.RadioGroupActivity">
+    <!-- Page Content -->
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+        <Button
+            android:id="@+id/buttonUno"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="muestraRadioGroupUno"
+            android:text="Radio Group Uno"/>
+
+        <Button
+            android:id="@+id/buttonDos"
+            android:layout_below="@+id/buttonUno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="muestraRadioGroupDos"
+            android:text="Radio Group Dos"/>
+
+        <Button
+            android:id="@+id/buttonTres"
+            android:layout_below="@+id/buttonDos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="muestraRadioGroupTres"
+            android:text="Radio Group Tres"/>
+
+        <Button
+            android:id="@+id/buttonCuatro"
+            android:layout_below="@+id/buttonTres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="muestraRadioGroupCuatro"
+            android:text="Radio Group Cuatro"/>
+
+        <Button
+            android:id="@+id/buttonCinco"
+            android:layout_below="@+id/buttonCuatro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="muestraRadioGroupCinco"
+            android:text="Radio Group Cinco"/>
+
+        </RelativeLayout>
+
+
+
+
+</RelativeLayout>

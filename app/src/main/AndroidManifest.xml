@@ -28,7 +28,13 @@
         <activity android:name=".NavigationViewAgrupadoConCabeceraActivity" />
         <activity android:name=".FloatingLabelHintsActivity" />
         <activity android:name=".AppBarLayoutActivity" />
-        <activity android:name=".CollapsingToolBarLayoutActivity"></activity>
+        <activity android:name=".CollapsingToolBarLayoutActivity" />
+        <activity android:name=".RadioGroupActivity" />
+        <activity android:name=".RadioGroupUnoActivity" />
+        <activity android:name=".RadioGroupDosActivity" />
+        <activity android:name=".RadioGroupTresActivity" />
+        <activity android:name=".RadioGroupCuatroActivity" />
+        <activity android:name=".RadioGroupCincoActivity"></activity>
     </application>
 
 </manifest>

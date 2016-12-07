@@ -119,4 +119,9 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
         Intent intent = new Intent(this,CollapsingToolBarLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void muestraRadioGroup(View view) {
+        Intent intent = new Intent(this,RadioGroupActivity.class);
+        startActivity(intent);
+    }
 }
