@@ -73,6 +73,18 @@
                 android:onClick="muestraRadioGroup"
                 android:text="Radio Group"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="muestraRecyclerView"
+                android:text="RecyclerView"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="muestraRecyclerViewDos"
+                android:text="RecyclerViewDos"/>
+
             <TextView
                 android:id="@+id/txvMenuItem"
                 android:layout_width="wrap_content"

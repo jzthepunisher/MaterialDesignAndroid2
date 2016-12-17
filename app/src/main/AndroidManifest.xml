@@ -34,7 +34,9 @@
         <activity android:name=".RadioGroupDosActivity" />
         <activity android:name=".RadioGroupTresActivity" />
         <activity android:name=".RadioGroupCuatroActivity" />
-        <activity android:name=".RadioGroupCincoActivity"></activity>
+        <activity android:name=".RadioGroupCincoActivity" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".RecyclerViewDosActivity"></activity>
     </application>
 
 </manifest>

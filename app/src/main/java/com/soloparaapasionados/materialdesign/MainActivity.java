@@ -124,4 +124,14 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
         Intent intent = new Intent(this,RadioGroupActivity.class);
         startActivity(intent);
     }
+
+    public void muestraRecyclerView(View view) {
+        Intent intent = new Intent(this,RecyclerViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void muestraRecyclerViewDos(View view) {
+        Intent intent = new Intent(this,RecyclerViewDosActivity.class);
+        startActivity(intent);
+    }
 }
